@@ -31,6 +31,10 @@
 // }; 
 
 
+// "build": "webpack --mode production",
+// "dev": "webpack serve
+
+
 // babel.config.js -> Babel presets:
 // const presets = [
 //     ['@babel/env', { // какой пресет использовать

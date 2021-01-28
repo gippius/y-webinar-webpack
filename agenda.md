@@ -18,6 +18,7 @@
 * Добавляем babel
   ** npm i @babel/core  @babel/preset-env core-js --save-dev
   ** babel.config.js
+  ** модуль и правило для бабеля в webpack config
   ** убрать ссылку на скрипт из html
 * Настраиваем обработку HTML
   ** npm i html-webpack-plugin --save-dev 
