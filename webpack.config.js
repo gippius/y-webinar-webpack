@@ -42,6 +42,11 @@ module.exports = {
             {
                 test: /\.(svg|png|jpg|gif|woff(2)?|eot|ttf|otf)$/,
                 type: 'asset/resource'
+            },
+            {
+                test: /\.js$/,
+                use: 'babel-loader',
+                exclude: '/node_modules/'
             }
         ]
     }
