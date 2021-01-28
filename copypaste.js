@@ -64,12 +64,19 @@
 //     }),
 //   ] 
 
+
+// Картинки -> webpack.config.js
+// {
+//     test: /\.(png|svg|jpg|gif|woff(2)?|eot|ttf|otf)$/,
+//     type: 'asset/resource'
+// },
+{/* <img src="<%=require('./images/logo.png')%>" alt="Логотип">  */}
+
+// CSS в конфиг
+// import './styles/index.css' в скрипт
+
 // webpack.config.json -> CSS load and extract
-// rules: [
-//     // правила для обработки js, html и других файлов
-  
-//     // добавьте ещё одно правило:
-//     {
+// новое правило: {
 //       // применять это правило только к CSS-файлам
 //       test: /\.css$/,
 //       // при обработке этих файлов нужно использовать
@@ -83,16 +90,11 @@
 //     new HtmlWebpackPlugin({
 //       template: 'src/index.html'
 //     }),
-//     new CleanWebpackPlugin(),
 //     new MiniCssExtractPlugin() // подключение плагина для объединения файлов
 //   ] 
 
-// Картинки -> webpack.config.js
-// {
-//     test: /\.(png|svg|jpg|gif|woff(2)?|eot|ttf|otf)$/,
-//     type: 'asset/resource'
-// },
-{/* <img src="<%=require('./images/logo.png')%>" alt="Логотип">  */}
+// Clean Webpack Plugin -> webpack.config.js
+//     new CleanWebpackPlugin(),
 
 // CSS минификация -> postcss.config.js
 // подключите плагины в файл

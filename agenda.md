@@ -23,13 +23,15 @@
 * Настраиваем обработку HTML
   ** npm i html-webpack-plugin --save-dev 
   ** webpack.config.js
-* Настраиваем обработку картинок
-  ** встроенный лоадер
-  ** webpack.config.js
 * CSS-файлов много. Ставим mini css extract plugin
   ** npm i css-loader mini-css-extract-plugin --save-dev
   ** 
 * Минифицируем CSS - postcss, cssnano, autoprefixer
   ** CSS можно сжать
   ** npm i postcss-loader autoprefixer cssnano --save-dev
+* Clean Webpack Plugin
+  ** npm i clean-webpack-plugin   --save-dev
+* Настраиваем обработку картинок
+  ** встроенный лоадер
+  ** webpack.config.js
 * Что получилось
