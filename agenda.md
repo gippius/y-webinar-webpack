@@ -30,6 +30,7 @@
   ** CSS можно сжать
   ** npm i postcss-loader autoprefixer cssnano --save-dev
 * Clean Webpack Plugin
+  ** создаем postcss.config.js
   ** npm i clean-webpack-plugin   --save-dev
 * Настраиваем обработку картинок
   ** встроенный лоадер
