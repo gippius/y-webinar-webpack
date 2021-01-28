@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/gippius/y-webinar-webpack/issues"
   },
-  "homepage": "https://github.com/gippius/y-webinar-webpack#readme"
+  "homepage": "https://github.com/gippius/y-webinar-webpack#readme",
+  "devDependencies": {
+    "webpack": "^5.18.0",
+    "webpack-cli": "^4.4.0"
+  }
 }
