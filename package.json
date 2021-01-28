@@ -1,0 +1,22 @@
+{
+  "name": "y-webinar-8-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "copypaste.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "",
+    "build": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gippius/y-webinar-webpack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gippius/y-webinar-webpack/issues"
+  },
+  "homepage": "https://github.com/gippius/y-webinar-webpack#readme"
+}
